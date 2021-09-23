@@ -1,0 +1,11 @@
+@media (min-width:900px){
+    #content_holder{
+        display:flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .form_filler{
+        flex-basis:50% ;
+    }
+}
