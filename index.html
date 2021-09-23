@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <div class=" col-lg-4 bg-info">
+            <label for="name" class="form-label ">name</label>
+            <input type="text" class="form-control bg-primary" id="name">
+        </div>
+        <div class=" col-lg-4 bg-info">
+            <label for="place" class="form-label">place</label>
+            <input type="text" class="form-control bg-primary" id="place">
+        </div>
+        <div class="col-lg-4 bg-info">
+            <label for="city" class="form-label">city</label>
+            <input type="text" class="form-control bg-primary" id="city">
+        </div>
+        <div class=" col-lg-4 bg-info">
+            <label for="state" class="form-label">state</label>
+            <input type="text" class="form-control bg-primary" id="state">
+        </div>
+        <div class=" col-lg-4 bg-dark g-5">
+           <buttont type="submit" class="btn btn-outline-warning" onclick="addTable()">submit</buttont>
+        </div>
+    </form>
+
+    <table class="table table-hover" id="list">
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>place</th>
+            <th>city</th>
+            <th>state</th>
+        </tr>
+        </thead>
+        <tbody id="listbody">
+           
+        </tbody>
+    </table>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
